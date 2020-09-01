@@ -13,6 +13,7 @@ app.use(express.json({ extended: false }));
 app.use(bodyParser.json());
 
 // Routes \\
+app.use("/api/entrees", require("./routes/entrees"));
 
 // Static assets if in production (deployment purposes) \\
 if (process.env.NODE_ENV === "production") {
