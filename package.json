@@ -17,6 +17,8 @@
     "express-validator": "^6.6.1",
     "http-status-codes": "^2.1.2",
     "mongoose": "^5.10.1",
+    "node": "^14.8.0",
+    "nodemon": "^2.0.4",
     "pure-react-carousel": "^1.27.1",
     "react": "^16.13.1",
     "react-router-dom": "^5.2.0",
