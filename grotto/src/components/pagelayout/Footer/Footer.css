@@ -9,3 +9,42 @@
     display: block;
     padding: 1rem;
 }
+
+.footer-socials a {
+    text-align: center;
+    font-size: 50px;
+    margin: 0.5rem;
+    padding: 4px;
+    width: 53px;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-twitter:hover {
+    opacity: 0.5;
+}
+
+.fa-instagram:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook:hover {
+    opacity: 0.5;
+}

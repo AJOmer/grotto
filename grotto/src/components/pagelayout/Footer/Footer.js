@@ -15,7 +15,7 @@ const Footer = () => {
         className = "fa fa-instagram" /
         >
         <
-        a href = "https://twitter.com/fishermangrotto"
+        a href = "https://twitter.com/oldfishgrotto?lang=en"
         className = "fa fa-twitter" /
         >
         <
