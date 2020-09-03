@@ -1,6 +1,7 @@
 import React from "react";
 
 // CSS \\
+import "./Footer.css";
 
 const Footer = () => {
     return ( <
@@ -22,6 +23,17 @@ const Footer = () => {
         className = "fa fa-facebook" /
         >
         <
+        /div>{" "} <
+        div className = "footer-address" >
+        <
+        p >
+        Old Fisherman 's Grotto, 39 Fisherman'
+        s Wharf, Monterey, California 93940 { " " } <
+        /p>{" "} <
+        /div>{" "} <
+        div className = "footer-copyright" >
+        <
+        p > ©2020 Old Fisherman 's Grotto</p>{" "} <
         /div>{" "} <
         /div>{" "} <
         /div>

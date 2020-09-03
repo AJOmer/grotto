@@ -1,0 +1,11 @@
+.footer-wrapper {
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 17px;
+}
+
+.footer-container {
+    display: block;
+    padding: 1rem;
+}
