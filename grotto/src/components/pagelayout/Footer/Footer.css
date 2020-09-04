@@ -1,6 +1,6 @@
 .footer-wrapper {
-    background-color: beige;
-    border: 1px solid black;
+    background-color: grey;
+    /* border: 1px solid black; */
     text-align: center;
     font-size: 17px;
 }
@@ -47,4 +47,20 @@
 
 .fa-facebook:hover {
     opacity: 0.5;
+}
+
+.footer-address {
+    font-family: "Play", sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.footer-copyright {
+    font-size: 17px;
+    font-family: "Play", sans-serif;
+    color: whitesmoke;
+}
+
+.grottospan {
+    font-style: italic;
 }

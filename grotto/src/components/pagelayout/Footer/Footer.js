@@ -33,7 +33,8 @@ const Footer = () => {
         /div>{" "} <
         div className = "footer-copyright" >
         <
-        p > ©2020 Old Fisherman 's Grotto</p>{" "} <
+        p > { " " }© < span className = "grottospan" > 2020 Old Fisherman 's Grotto</span> <
+        /p>{" "} <
         /div>{" "} <
         /div>{" "} <
         /div>
