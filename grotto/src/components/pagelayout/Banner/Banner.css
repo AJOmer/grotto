@@ -1,0 +1,26 @@
+.banner-wrapper {
+    background-color: white;
+    height: 16rem;
+    border-style: inset;
+}
+
+.banner-background {
+    /* border: 2px solid red; */
+    height: 13rem;
+    padding: 10px;
+}
+
+.banner-logos {
+    display: inline-block;
+    margin: 25px;
+}
+
+.banimg {
+    color: white;
+    height: 160px;
+    width: 235px;
+}
+
+.banner-logos:hover {
+    opacity: 0.6;
+}
