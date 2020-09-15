@@ -1,0 +1,85 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4vh;
+    top: 0;
+}
+
+.navbar_main {
+    height: 190px;
+    background-image: url(../../../assets/wharf.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
+}
+
+.logo {
+    text-align: left;
+    /* border: 1px solid black; */
+    width: 20%;
+}
+
+.grottologo {
+    width: 82%;
+    /* border: 2px solid blue; */
+    transform: rotate(-16deg);
+    margin-top: 15px;
+}
+
+.navbar {
+    display: flex;
+    width: 30%;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-left: 38%;
+    margin-bottom: 6%;
+}
+
+#menu {
+    margin: 6px;
+    text-decoration: none;
+    font-family: "Bebas-Neue", cursive;
+    font-size: 20px;
+    color: black;
+}
+
+#about {
+    margin: 6px;
+    text-decoration: none;
+    font-family: "Bebas-Neue", cursive;
+    font-size: 20px;
+    color: black;
+}
+
+#chowda {
+    margin: 6px;
+    text-decoration: none;
+    font-family: "Bebas-Neue", cursive;
+    font-size: 20px;
+    color: black;
+}
+
+#contact {
+    margin: 6px;
+    text-decoration: none;
+    font-family: "Bebas-Neue", cursive;
+    font-size: 20px;
+    color: black;
+}
+
+#menu:hover {
+    color: orange;
+}
+
+#about:hover {
+    color: orange;
+}
+
+#chowda:hover {
+    color: orange;
+}
+
+#contact:hover {
+    color: orange;
+}

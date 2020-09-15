@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./components/TopScroll/TopScroll";
 import Footer from "./components/pagelayout/Footer/Footer";
 import Banner from "./components/pagelayout/Banner/Banner";
+import Navbar from "./components/pagelayout/Navbar/Navbar";
 
 const App = () => {
     return ( <
@@ -11,6 +12,8 @@ const App = () => {
         Fragment >
         <
         ScrollToTop / >
+        <
+        Navbar / >
         <
         Banner / >
         <
