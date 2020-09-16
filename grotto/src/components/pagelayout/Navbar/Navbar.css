@@ -32,39 +32,39 @@ nav {
     width: 30%;
     /* border: 1px solid red; */
     text-align: center;
-    margin-left: 38%;
+    margin-left: 30%;
     margin-bottom: 6%;
 }
 
 #menu {
-    margin: 6px;
+    margin: 1px;
     text-decoration: none;
     font-family: "Bebas-Neue", cursive;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 }
 
 #about {
-    margin: 6px;
+    margin: 1px;
     text-decoration: none;
     font-family: "Bebas-Neue", cursive;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 }
 
 #chowda {
-    margin: 6px;
+    margin: 1px;
     text-decoration: none;
     font-family: "Bebas-Neue", cursive;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 }
 
 #contact {
-    margin: 6px;
+    margin: 1px;
     text-decoration: none;
     font-family: "Bebas-Neue", cursive;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 }
 
