@@ -19,9 +19,9 @@ const App = () => {
         <
         HeroImage / >
         <
-        Banner / >
-        <
         SimpleMap / >
+        <
+        Banner / >
 
         <
         Footer / >

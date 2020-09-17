@@ -15,7 +15,7 @@
     height: 30px;
     width: 24px;
     background: transparent;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .buttonnext {
@@ -25,7 +25,7 @@
     height: 30px;
     width: 24px;
     background: transparent;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .buttonnext:hover,

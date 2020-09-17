@@ -21,29 +21,29 @@ const HeroImage = () => {
             const windowWidth = window.innerWidth;
 
             const heroImages1024 = [{
-                    brand: "supreme",
-                    link: "https://pbs.twimg.com/media/DnY4D1QWwAAtySO.jpg",
+                    brand: "grottocrab",
+                    link: "https://www.marinatimes.com/wp-content/uploads/2017/12/The-Grotto-SF-5D4_8224-640x427.jpg",
                 },
                 {
-                    brand: "off-white",
-                    link: "https://smhttp-ssl-82554.nexcesscdn.net/pub/media/catalog/product/cache/10f519365b01716ddb90abc57de5a837/o/f/off_white_71335_1_1.jpg",
+                    brand: "platter",
+                    link: "https://media-cdn.tripadvisor.com/media/photo-s/08/2c/b1/01/old-fisherman-s-grotto.jpg",
                 },
                 {
-                    brand: "stussy",
-                    link: "https://pauseonline.s3.amazonaws.com/wp-content/uploads/2015/05/stussy-summer-2015-lookbook-BAN.jpg",
+                    brand: "treasureofsea",
+                    link: "https://live.staticflickr.com/6011/5965317945_21993f5a0d_b.jpg",
                 },
             ];
             const heroImages480 = [{
-                    brand: "supreme",
-                    link: "https://i.pinimg.com/originals/9c/bb/2e/9cbb2eba6463c3faeff2e60012fb0995.jpg",
+                    brand: "grottocrab",
+                    link: "https://www.marinatimes.com/wp-content/uploads/2017/12/The-Grotto-SF-5D4_8224-640x427.jpg",
                 },
                 {
-                    brand: "off-white",
-                    link: "https://cdn.shopify.com/s/files/1/1937/2651/products/off-white-tee-shirt_480x480.jpg",
+                    brand: "platter",
+                    link: "https://media-cdn.tripadvisor.com/media/photo-s/08/2c/b1/01/old-fisherman-s-grotto.jpg",
                 },
                 {
-                    brand: "tmc",
-                    link: "https://cdn.shopify.com/s/files/1/0263/5143/5836/products/Kids-T-Shirt-Crenshaw-White-Grey-Full_1024x1024.jpg",
+                    brand: "treasureofsea",
+                    link: "https://live.staticflickr.com/6011/5965317945_21993f5a0d_b.jpg",
                 },
             ];
 
@@ -67,7 +67,8 @@ const HeroImage = () => {
         naturalSlideHeight = { naturalSlideH }
         totalSlides = { 3 }
         isPlaying = { true }
-        interval = { 5000 } >
+        interval = { 5000 }
+        infinite = { true } >
         <
         Slider > { " " } {
             heroImagesArray.map((heroImage, ind) => ( <
@@ -78,7 +79,7 @@ const HeroImage = () => {
                 <
                 img alt = "shirts"
                 src = { heroImage.link }
-                /> }{" "} <
+                />{" "} <
                 /div>{" "} <
                 /Slide>
             ))
