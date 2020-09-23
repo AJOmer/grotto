@@ -19,19 +19,15 @@ const Navbar = () => {
         /div>{" "} <
         div className = "navbar" >
         <
-        Link id = "menu"
-        to = "/menu/entrees" > { " " }
-        Menu { " " } <
-        /Link>{" "} <
         Link id = "about"
-        to = "/about
-        " >
-        { " " }
+        to = "/about" > { " " }
         About { " " } <
         /Link>{" "} <
-        Link id = "chowda"
-        to = "/chowder" > { " " }
-        Order Clam Chowder { " " } <
+        Link id = "menu"
+        to = "/menu/entrees
+        " >
+        { " " }
+        Menu { " " } <
         /Link>{" "} <
         Link id = "contact"
         to = "/contactus" > { " " }

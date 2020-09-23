@@ -7,11 +7,11 @@ nav {
 }
 
 .navbar_main {
-    height: 190px;
+    height: 150px;
     background-image: url(../../../assets/wharf.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center top;
+    background-position: center center;
 }
 
 .logo {
@@ -21,10 +21,10 @@ nav {
 }
 
 .grottologo {
-    width: 82%;
+    width: 69%;
     /* border: 2px solid blue; */
-    transform: rotate(-16deg);
-    margin-top: 15px;
+    transform: rotate(-12deg);
+    margin-top: 8%;
 }
 
 .navbar {
@@ -33,39 +33,34 @@ nav {
     /* border: 1px solid red; */
     text-align: center;
     margin-left: 30%;
-    margin-bottom: 6%;
+    /* margin-bottom: 6%; */
 }
 
 #menu {
     margin: 1px;
     text-decoration: none;
-    font-family: "Bebas-Neue", cursive;
-    font-size: 15px;
-    color: black;
+    font-family: "Bebas Neue", cursive;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
 }
 
 #about {
     margin: 1px;
     text-decoration: none;
-    font-family: "Bebas-Neue", cursive;
-    font-size: 15px;
-    color: black;
-}
-
-#chowda {
-    margin: 1px;
-    text-decoration: none;
-    font-family: "Bebas-Neue", cursive;
-    font-size: 15px;
-    color: black;
+    font-family: "Bebas Neue", cursive;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
 }
 
 #contact {
     margin: 1px;
     text-decoration: none;
-    font-family: "Bebas-Neue", cursive;
-    font-size: 15px;
-    color: black;
+    font-family: "Bebas Neue", cursive;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
 }
 
 #menu:hover {
