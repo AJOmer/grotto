@@ -11,7 +11,7 @@ nav {
     background-image: url(../../../assets/wharf.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center center;
+    background-position: center left;
 }
 
 .logo {
@@ -21,7 +21,7 @@ nav {
 }
 
 .grottologo {
-    width: 69%;
+    width: 65%;
     /* border: 2px solid blue; */
     transform: rotate(-12deg);
     margin-top: 8%;

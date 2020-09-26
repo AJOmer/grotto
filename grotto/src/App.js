@@ -6,6 +6,7 @@ import Banner from "./components/pagelayout/Banner/Banner";
 import Navbar from "./components/pagelayout/Navbar/Navbar";
 import SimpleMap from "./components/landingpage/googlemap/googleMap";
 import HeroImage from "./components/landingpage//heroimage/HeroImage";
+import HoursInfo from "./components/landingpage/hoursandinfo/HoursInfo";
 
 const App = () => {
     return ( <
@@ -18,6 +19,8 @@ const App = () => {
         Navbar / >
         <
         HeroImage / >
+        <
+        HoursInfo / >
         <
         SimpleMap / >
         <
