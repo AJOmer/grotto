@@ -31,6 +31,25 @@ const HoursInfo = () => {
         <
         /a>{" "} <
         /div>{" "} <
+        div className = "hours" >
+        <
+        h3 className = "outdoor_eating" >
+        Old Fishermans grotto is open
+        for outdoor dining and we are offering To Go and curbside service { " " } <
+        /h3>{" "} <
+        strong className = "openclose" > { " " }
+        Monday - Thursday: 11: 00 a.m.to 9: 15 p.m. { " " } <
+        /strong>{" "} <
+        strong className = "openclose" > { " " }
+        Friday - Saturday: 11: 00 a.m.to 9: 30 p.m. { " " } <
+        /strong>{" "} <
+        strong className = "openclose" > { " " }
+        Sunday: 11: 00 a.m.to 9: 00 p.m. { " " } <
+        /strong>{" "} <
+        h3 className = "outdoor_eating" >
+        Masks are required upon arrival and when moving around the restaurant.We appreciate your understanding of these policies as we adhere to local guidelines. <
+        /h3> <
+        /div>{" "} <
         /div>
     );
 };

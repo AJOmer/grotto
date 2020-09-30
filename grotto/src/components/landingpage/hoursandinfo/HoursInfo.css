@@ -31,3 +31,29 @@
 .giftlink:hover {
     opacity: 0.75;
 }
+
+.hours {
+    width: 94%;
+    justify-content: center;
+}
+
+.outdoor_eating {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-left: 4rem;
+    text-transform: capitalize;
+    line-height: 35px;
+    color: #ee7f22;
+    font-size: 25px;
+}
+
+.openclose {
+    width: 25%;
+    font-family: "Roboto", sans-serif;
+    margin-left: 40%;
+}
+
+strong {
+    color: #707070;
+    font-size: 18px;
+}
