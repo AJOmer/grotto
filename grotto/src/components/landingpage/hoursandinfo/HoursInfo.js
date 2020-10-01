@@ -47,8 +47,11 @@ const HoursInfo = () => {
         Sunday: 11: 00 a.m.to 9: 00 p.m. { " " } <
         /strong>{" "} <
         h3 className = "outdoor_eating" >
-        Masks are required upon arrival and when moving around the restaurant.We appreciate your understanding of these policies as we adhere to local guidelines. <
-        /h3> <
+        Masks are required upon arrival and when moving around the restaurant.We appreciate your understanding of these policies as we adhere to local guidelines. { " " } <
+        /h3>{" "} <
+        strong className = "openclose" > { " " }
+        No large parties, seating is limited to 4 people { " " } <
+        /strong>{" "} <
         /div>{" "} <
         /div>
     );

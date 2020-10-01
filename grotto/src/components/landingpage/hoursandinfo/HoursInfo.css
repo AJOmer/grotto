@@ -1,3 +1,7 @@
+.hoursinfo-wrapper {
+    background-color: #f6f6f6;
+}
+
 .reservation {
     padding: 1rem;
 }
@@ -43,7 +47,7 @@
     margin-left: 4rem;
     text-transform: capitalize;
     line-height: 35px;
-    color: #ee7f22;
+    color: goldenrod;
     font-size: 25px;
 }
 
@@ -56,4 +60,44 @@
 strong {
     color: #707070;
     font-size: 18px;
+}
+
+.locationphone {
+    padding: 10px;
+    display: flex;
+}
+
+.location {
+    margin-left: 10%;
+}
+
+.phone {
+    margin-left: 10%;
+}
+
+.location h3 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.location p {
+    color: #707070;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.phone h3 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.phone a {
+    color: #707070;
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+    font-size: 17px;
 }
