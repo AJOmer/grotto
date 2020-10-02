@@ -7,7 +7,7 @@ import Navbar from "./components/pagelayout/Navbar/Navbar";
 import SimpleMap from "./components/landingpage/googlemap/googleMap";
 import HeroImage from "./components/landingpage//heroimage/HeroImage";
 import HoursInfo from "./components/landingpage/hoursandinfo/HoursInfo";
-
+import History from "./components/landingpage/history/History";
 const App = () => {
     return ( <
         Router >
@@ -21,6 +21,8 @@ const App = () => {
         HeroImage / >
         <
         HoursInfo / >
+        <
+        History / >
         <
         SimpleMap / >
         <
